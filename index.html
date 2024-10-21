@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Welcome to my Webpage</h1>
+        </div>
+        <nav>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">Form</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Table</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <!--CONTENT-->
+        <div class="container">
+            <div class="about">
+                <h3> About Web development</h3>
+                <p>Web standards ensure that websites look and function the same across all devices and browsers. W3C standards are particularly important.</p>
+            </div>
+            <div class="side">
+                <h3> Side Content</h3>
+                <p>This section contains additional information relevant to the topic.</p>
+            </div>
+        </div>
+
+        <!--FORM-->
+        <div class="form">
+            <h1>Sign-up Form</h1><br>
+            <form action="#">
+                <label for="fname">Name :</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email :</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email"><br><br>
+
+                <label for="address">Short Description :</label>
+                <input type="text" class="form-control" id="address"><br><br>
+
+                <label for="topic">Choose a topic :</label>
+                <select class="form-control" id="topic">
+                    <option value="">Select a topic</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JAVASCRIPT">JAVASCRIPT</option>
+                </select><br><br>
+
+                <p>upload a file:</p>
+                <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename"><br><br>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div><br><br><hr>
+
+        <!--MEDIA-->
+        <div class="Media">
+            <h2>Enjoy Some Media - </h2><br>
+            <audio controls>
+                <source src="Audio/sample-audio.mp3" type="audio/mp3">
+            </audio>
+            <video width="400" controls>
+                <source src="Video/sample-video.mp4" type="video/mp4">
+            </video>
+            <img src="images/sample.jpg" alt="background" height="400">
+        </div><br><br><hr>
+
+        <!--ITEM LIST -->
+        <div class="items">
+            <h2>Item List -</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Item 1</td>
+                    <td>This is a description of item 1!</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Item 2</td>
+                    <td>This is a description of item 2!</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>Item 3</td>
+                    <td>This is a description of item 3!</td>
+                    <td>$20</td>
+                </tr>
+            </table>
+        </div><br><br><hr>
+
+        <h2>Best Practices in Web Design</h2>
+            <ul>
+                <li>Use Semantic HTML to ensure Accessibility.</li>
+                <li>Make Websoite responsive for diffrent devices.</li>
+                <li>Ensure consistent design using external stylesheets.</li>
+            </ul>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <h1>Created & Developed by - Vrutansh Parmar, 2024!</h1>
+        </div>
+    </footer>
+</body>
+</html>
