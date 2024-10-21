@@ -9,13 +9,15 @@
 <body>
     <header>
         <div class="heading">
-            <h1>Welcome to my Webpage</h1>
+            <h1>Welcome to My Midterm Webpage</h1>
         </div>
         <nav>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="#">Form</a></li>
-            <li><a href="#">Media</a></li>
-            <li><a href="#">Table</a></li>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#">Form</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Table</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -53,24 +55,23 @@
                     <option value="JAVASCRIPT">JAVASCRIPT</option>
                 </select><br><br>
 
-                <p>upload a file:</p>
-                <form action="/action_page.php">
-                <input type="file" id="myFile" name="filename"><br><br>
+                <p>upload a file: <input type="file" id="myFile" name="filename"></p>
+                <br>
 
                 <button type="submit">SUBMIT</button>
             </form>
         </div><br><br><hr>
 
         <!--MEDIA-->
+        <h2>Enjoy Some Media - </h2><br>
         <div class="Media">
-            <h2>Enjoy Some Media - </h2><br>
             <audio controls>
                 <source src="Audio/sample-audio.mp3" type="audio/mp3">
             </audio>
-            <video width="400" controls>
+            <video  class="video" controls>
                 <source src="Video/sample-video.mp4" type="video/mp4">
             </video>
-            <img src="images/sample.jpg" alt="background" height="400">
+            <img src="images/sample.jpg" alt="background" class="image">
         </div><br><br><hr>
 
         <!--ITEM LIST -->
